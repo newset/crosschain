@@ -1,0 +1,20 @@
+[package]
+name = "native"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+# bitcoin = "0.31.1"
+flutter_rust_bridge = "1"
+anychain-core = "0.1.5"
+anychain-kms = "0.1.6"
+anychain-bitcoin = "0.1.5"
+anychain-ethereum = "0.1.11"
+anychain-tron = "0.2.3"
+# bdk = { version = "0.28.1", default-feature = false, features = ["all-keys"] }
+reqwest = { version = "0.11", features = ["blocking"] }
+html2md = "0.2"
+tonlib = "0.14"
